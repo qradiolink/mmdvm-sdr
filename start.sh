@@ -12,5 +12,5 @@ do
    ./mmdvm -c $i &
 done
 
-trap exit_all SIGINT
+trap exit_all INT TERM
 wait
